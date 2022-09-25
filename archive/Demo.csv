@@ -1,0 +1,8 @@
+Model,Accuracy,Latency,Size,Memory,Debit
+Hyt-NAS-bl,85.84,18,15.36,10,55.5
+MobileNetV2(0.35x),86.34,29,398.69,105,34.48
+MobileViT-S,84.64,170,3430,2000,5.88
+MobileViT-XS,82.12,110,2300,1267,9.09
+MobileNetV3-small,87.22,39.6,2540,657,25.3
+Hyt-NAS-ba,92.25,103,2700,1345,9.71
+Hyt-NAS-O,90.02,38,187,830,26.31

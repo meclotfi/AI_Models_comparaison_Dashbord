@@ -1,0 +1,114 @@
+@font-face {
+    font-family: FIFA;
+    src: url(/assets/EASports.ttf);
+}
+
+body {
+    height: 100%;
+    background: rgb(34, 34, 34);
+    padding: 2%;
+    font-family: FIFA;
+}
+
+.navbar {
+    background-color: transparent!important;
+    margin-bottom: 3%
+}
+
+.playerImg {
+    margin: auto;
+    height: 250px;
+}
+
+.attributes_card {
+    background-color: rgb(22, 22, 22);
+    box-shadow: 1px 1px 1px 1px #888888;
+}
+
+.card-title2
+{
+    font-size: 14px;
+}
+.card-title1
+{
+    font-size: 14px;
+}
+
+.card_info2 {
+    font-size: 22px;
+    color:rgb(76, 0, 255);
+    align-content:"center";
+}
+.card_info1 {
+    font-size: 22px;
+    color:#eb0303;
+    align-self: "center";
+}
+#age_slider {
+    margin: 5% 5% 5% 0%;
+    padding: 1%;
+}
+
+#label1 {
+    color:rgb(251, 251, 255);
+    font-size: 250%;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    
+}
+.label2 {
+    color:rgb(255, 255, 255);
+    font-size: 100%;  
+}
+
+.controls {
+    box-shadow: 5px 10px 8px #888888;
+    background-color: rgb(17, 17, 17);
+    margin-bottom: 45%;
+}
+
+.controls_players {
+   background-color: rgb(17, 17, 17);
+   color: azure;
+   /*box-shadow: 5px 10px 8px #888888;
+   margin-bottom: 10%;*/
+}
+
+.LeagueBarPlot{
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.rc-slider-track {
+    background-color: #9536F8;
+}
+  
+.rc-slider-dot-active {  
+    border-color: #9536F8;
+    border: solid 2px #9536F8;
+}
+  
+.rc-slider-handle {
+    background-color: #9536F8;
+    border-color: #9536F8;
+}
+  
+.rc-slider-handle:hover {
+    border-color: #9536F8;
+}
+  
+.rc-slider-handle-active:active {
+    border-color: #9536F8;
+}
+
+.nav-link {
+    color:rgb(61, 59, 59);
+}
+
+.nav-link:hover{
+    color: black;
+    border: transparent;
+}
+.main{
+    color: rgb(252, 246, 246);
+    background-color: rgb(17, 17, 17);
+}
