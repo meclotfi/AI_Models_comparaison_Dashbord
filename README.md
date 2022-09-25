@@ -1,22 +1,10 @@
-# FIFA Generation - Dashboard - Data Visualization Project 2020/2021
+# Model Comparaison Dashboard 
+![Interface]()
+The aim of this dashboard is to provide to the user a cool, simple to use interface to compare deep learning models according to multiple performance criterias such as: Accurcay, Latency, Throughput, Size and Memory consumption.
 
-The dashboard created aims to inspect some questions that all the football-lovers mind. How will be the next generation of football players? What will happen after the decade of Messi and Ronaldo? 
 
-We analyzed the data of the famous videogame FIFA 21, focusing on the main differences that pop up between the “old” and “new” generation. The dashboard has the objective of showing which are the differences that nowadays characterize the different generation of players, with a particular focus on the main talents of the future.
+The dashboard was created with Plotly, an interactive graphing library for Python. The Interface is modified from [the Fifa dashboard project](https://github.com/plotly/dash-sample-apps/tree/main/apps/dash-fifa-dashboard)
 
-The dashboard was created with Plotly, an interactive graphing library for Python. The programs used for the creation of the code were PyCharm and Visual Studio Code. With these tools we developed the main interactions that are necessary to tell the story we are interested to transmit. 
+Now, the comparaison is made based on pre-collected measures. In the future, we aim to provide a real-time comparaison on the hardware platform that the program is running on, allowing for easy multi-hardware comparaison. The user can just download the code on any hardware plateform and run it to get a full comparaison of the models on the platform. the only condition is that the platform contains a browser and python installed.   
 
-The second objective of this project was to create a more pleasant experience for the user, and to improve the layout we used HTML, CSS and a framework from CSS called Bootstrap. In this way we achieved a better organization of our Dash App and the users can navigate through the sections like a normal web page
-
-The data set provided include the players data for the Career Mode from FIFA 15 to FIFA 21. The dataset contains every player available in FIFA 21, 100+ attributes, positions and player attributes with statistics as Attacking, Skills, Defense, Mentality, GK Skills, etc. The data has been scraped from the available website: https://www.kaggle.com/stefanoleone992/fifa-21-complete-player-dataset.
- 
-The report of the dashboard: https://bit.ly/2Qx0D80
-
-Explore our online dashboard at https://fifagen.herokuapp.com/
-
-Contributors:
-- Catarina Pinheiro
-- Henrique Renda
-- Nguyen Huy Phuc
-- Lorenzo Pigozzi
 
